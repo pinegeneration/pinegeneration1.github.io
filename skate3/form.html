@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="lv">
+<title> Anketa </title>
+
+<style type="text/css">
+		 h1,h2 {
+		  font-weight: bold;
+		 Font-family: Arial;
+		}
+		body {
+		background-attachment: fixed;}
+		</style>
+<head>
+
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<marquee behaviour="alternate" scrollamount="11"
+
+ONMOUSEOVER="this.stop();"
+ONMOUSEOUT="this.start();">
+<IMG src="firstpage.gif" height="90">
+
+</marquee>
+
+
+	<meta charset="UTF-8">
+	<script src="./lib/jquery-2.1.4.min.js"></script>
+	<link rel="stylesheet" href="./css/html5-reset.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="./lib/bootstrap-3.3.5-dist/css/bootstrap.min.css">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="./lib/bootstrap-3.3.5-dist/css/bootstrap-theme.min.css">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="./lib/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="./css/css.css">
+
+	<title>Info</title>
+</head>
+<body>
+	
+		
+	</header>
+		<div class = "row">
+			<div class = "col-md-12">
+				<nav class="navbar navbar-inverse">
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#izvelne">
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>                        
+				      </button>
+					  
+				      <a class="navbar-brand" href="mainpage.html">Galvenā lapa</a>
+				    </div>
+				    <div class="collapse navbar-collapse" id="izvelne">
+				      <ul class="nav navbar-nav">
+				        <li ><a href="galery.html">Galerija</a></li>
+				        <li><a href="form.html">Anketa</a></li>
+						<li><a href="contacts.html">Kontakti</a></li>
+							<li><a href="lietotajiem.html">Lietotājiem</a></li>
+						
+				      </ul>
+				    </div>
+				</nav>
+			</div>
+		</div>
+		
+		
+		<section class = "row">
+			<main>
+			
+			<!-- Trigger the modal with a button -->
+<center><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Reģitrācija</button></center>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class= "modal-dialog modal-lg">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Anketa</h4>
+      </div>
+      <div class="modal-body">
+		<form>
+        <label for="InputName">Niks</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
+                        <span class="input-group-addon"></span>
+                    </div>
+		<label for="InputEmail">Epasts</label>
+                    <div class="input-group">
+                        <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required>
+                        <span class="input-group-addon"></span>
+					</div>
+		<label for="pwd">Parole</label>
+                    <div class="input-group">
+                        <input type="password" class="form-control" name="InputParole" id="InputParole" placeholder="Enter Name" required>
+                        <span class="input-group-addon"></span>
+						
+						
+                    </div>
+					
+					
+		</form>
+		
+      </div>
+	  
+      <div class="modal-footer">
+	  <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+			
+			</main>
+		</section>
+	<div>
+	<div class = "row">
+	<footer class="col-md-12";>
+	<center>
+		<h1  class = "hide">Autors</h1>
+		<p>Daniels Afanasjevs D3-2</p>
+	</center>
+	</footer>
+	
+	</div>	
+</section>
+</body>
+</html>

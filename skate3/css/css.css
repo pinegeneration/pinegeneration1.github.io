@@ -1,0 +1,133 @@
+body {
+    background-image: url('sk8_bg2.png');
+}
+
+p {
+	font-family: Arial;
+	font-size: 20px;
+	line-height: 1.5;
+	color:#000000;
+
+}
+
+nav ul {
+	font-family: Arial;
+	font-size: 20px;
+
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline;
+	color:#000000;
+}
+
+h1 {
+	font-family: Arial;
+	font-size: 25px;
+	color:#000000;
+
+}
+
+.hide{
+	display:none;
+}
+
+
+main, nav{
+	
+	max-width: 800px;
+	margin: 0px auto;
+	margin: 0px auto;
+	padding:7px;
+}
+
+
+aside{
+	background-color: pink;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+footer{
+	padding:10px;
+}
+div.komandubildes :hover {
+border: 1px solid #777;}
+
+
+
+
+.navbar{
+	margin-bottom: 11px;
+	padding:0px;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+	background-color: #ffa500;
+	margin: 0px;
+	border:0px;
+	border-color:#ffa500;
+}
+
+.navbar-inverse{
+	border-color:#ffa500;
+	background-color: #ffa500;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a{
+	text-shadow: none;
+	color:#000000;
+	background-color: #ffa500;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a{
+	background-color: #ffa500;
+	color:#000000;
+}
+
+
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+	background-color: #ffa500;
+	color:#ffffff;	
+}
+
+.navbar-header{
+	background-color: #ffa500;
+	color:#ffffff;	
+}
+/* pogai */
+.navbar-inverse .navbar-toggle{
+	border:0px;
+	background-color: #ffa500;
+	color:#ffffff;
+}
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+      color: #000;
+      background: #ffa500;
+      text-decoration: none;
+      text-shadow:none;
+      -webkit-box-shadow: none;
+	  -moz-box-shadow: none;
+	  box-shadow: none;
+	  font-weight: bold;
+
+ }
+
+
+.row{
+	margin-right: -10px;
+    margin-left: -10px;
+}
+.cv{
+	margin-right: -10px;
+    margin-left: -10px;
+}
+
+
+
+
